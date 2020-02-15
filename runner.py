@@ -4,9 +4,7 @@
 !gzip -d cullpdb+profile_6133_filtered.npy.gz
 !gzip -d cb513+profile_split1.npy.gz
 
-from allimports import *
-from getdata import *
-from runner import *
+from createmodel import *
 
 X_train = [train_input_data, train_input_data_alt, train_profiles_np]
 y_train = train_target_data

@@ -1,3 +1,5 @@
+from getdata import *
+
 def decode_results(y_, reverse_decoder_index):
     print("prediction: " + str(onehot_to_seq(y_, reverse_decoder_index).upper()))
     return str(onehot_to_seq(y_, reverse_decoder_index).upper())
