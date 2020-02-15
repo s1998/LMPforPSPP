@@ -85,6 +85,7 @@ def super_conv_block(x):
 
 def CNN_BIGRU():
     # Inp is one-hot encoded version of inp_alt
+    maxlen_seq = 700
     inp          = Input(shape=(maxlen_seq, n_words))
     inp_alt      = Input(shape=(maxlen_seq,))
     inp_profiles = Input(shape=(maxlen_seq, 22))
