@@ -1,8 +1,8 @@
-!wget https://www.princeton.edu/~jzthree/datasets/ICML2014/cullpdb+profile_6133_filtered.npy.gz
-!wget https://www.princeton.edu/~jzthree/datasets/ICML2014/cb513+profile_split1.npy.gz
+#!wget https://www.princeton.edu/~jzthree/datasets/ICML2014/cullpdb+profile_6133_filtered.npy.gz
+#!wget https://www.princeton.edu/~jzthree/datasets/ICML2014/cb513+profile_split1.npy.gz
 
-!gzip -d cullpdb+profile_6133_filtered.npy.gz
-!gzip -d cb513+profile_split1.npy.gz
+#!gzip -d cullpdb+profile_6133_filtered.npy.gz
+#!gzip -d cb513+profile_split1.npy.gz
 
 from createmodel import *
 

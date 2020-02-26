@@ -225,7 +225,7 @@ def train(X_train, y_train, X_val=None, y_val=None, n_epoch = 100):
             validation_data = (X_val, y_val))
     else:
         history = model.fit( X_train, y_train,
-            batch_size = 128, epochs = n_epoch)
+            batch_size = 128, epochs = n_epoch, , validation_split=0.1)
 
     return history, model
 
